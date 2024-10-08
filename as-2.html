@@ -1,0 +1,63 @@
+
+<!-- Design a pricing table using Tailwind CSS. The table should include three pricing 
+    options (e.g., Basic, Standard, Premium), with each option displaying the price, 
+    features, and a sign-up button. Ensure the table is responsive and visually appealing -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <!-- Pricing Table -->
+<div class="container mx-auto p-4 pt-6 mt-16 shadow-2xl">
+    <div class="flex flex-wrap mx-4">
+      <!-- Basic Plan -->
+      <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+        <div class="bg-white rounded-lg shadow-xl p-8">
+          <h2 class="text-lg font-bold mb-2">Basic</h2>
+          <p class="text-4xl font-bold mb-4">$9.99/month</p>
+          <ul class="mb-8">
+            <li class="mb-2">1 User</li>
+            <li class="mb-2">100MB Storage</li>
+            <li class="mb-2">Email Support</li>
+          </ul>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button>
+        </div>
+      </div>
+      <!-- Standard Plan -->
+      <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+        <div class="bg-white rounded-lg shadow-xl p-8">
+          <h2 class="text-lg font-bold mb-2">Standard</h2>
+          <p class="text-4xl font-bold mb-4">$19.99/month</p>
+          <ul class="mb-8">
+            <li class="mb-2">5 Users</li>
+            <li class="mb-2">1GB Storage</li>
+            <li class="mb-2">Priority Support</li>
+          </ul>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button>
+        </div>
+      </div>
+      <!-- Premium Plan -->
+      <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+        <div class="bg-white rounded-lg shadow-xl p-8">
+          <h2 class="text-lg font-bold mb-2">Premium</h2>
+          <p class="text-4xl font-bold mb-4">$29.99/month</p>
+          <ul class="mb-8">
+            <li class="mb-2">10 Users</li>
+            <li class="mb-2">5GB Storage</li>
+            <li class="mb-2">Dedicated Support</li>
+          </ul>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</body>
+</html>

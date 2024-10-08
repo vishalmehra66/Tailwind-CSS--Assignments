@@ -1,0 +1,39 @@
+<!-- Design a footer using Tailwind Css For a website the footer should include company imformation at the left and the social links 
+in the right cornerit should heve dark bg and light text and be responsive for the smaller screen  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body><div class="min-h-screen flex flex-col">
+    <footer class="bg-gray-400 text-light h-screen md:h-24 flex justify-between items-center p-4 md:p-6">
+        <div class="text-lg md:text-base">
+          <p>Company Name</p>
+          <p>Address: 123 Main St, Anytown, USA</p>
+          <p>Phone: 555-555-5555</p>
+          <p>Email: [info@company.com](mailto:info@company.com)</p>
+        </div>
+    
+        
+        <div class="flex justify-end">
+          <a href="facebook.com" class="text-2xl mx-2 hover:text-gray-200">
+            <i class="fab fa-facebook-f"> facebook</i>
+          </a>
+          <a href="#" class="text-2xl mx-2 hover:text-gray-200">
+            <i class="fab fa-twitter"> twitter</i>
+          </a>
+          <a href="#" class="text-2xl mx-2 hover:text-gray-200">
+            <i class="fab fa-instagram"> Instagram</i>
+          </a>
+        </div>
+      </footer>
+    </div>
+    
+</body>
+</html>
